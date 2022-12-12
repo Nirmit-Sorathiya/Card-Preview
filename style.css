@@ -1,0 +1,111 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.container h2 {
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.container p {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.sedan {
+    background: hsl(31deg, 77%, 52%);
+    max-width: 225px;
+    padding: 50px;
+    line-height: 30px;
+    color: white;
+}
+
+.suv {
+    background: hsl(184deg, 100%, 22%);
+    max-width: 225px;
+    padding: 50px;
+    line-height: 30px;
+    color: white;
+
+}
+
+.luxury {
+    background: hsl(179deg, 100%, 13%);
+    max-width: 225px;
+    padding: 50px;
+    line-height: 30px;
+    color: white;
+
+}
+
+.container a {
+    border: 2px solid azure;
+    text-decoration: none;
+    font-size: 20px;
+    color: gray;
+    background: azure;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.sedan a:hover {
+    background: hsl(31deg, 77%, 52%);
+    color: white;
+}
+
+.suv a:hover {
+    background: hsl(184deg, 100%, 22%);
+    color: white;
+
+}
+
+.luxury a:hover {
+    background: hsl(179deg, 100%, 13%);
+    color: white;
+
+}
+
+.container p {
+    margin-bottom: 90px;
+}
+
+.end {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 950px) {
+    body {
+        height: 1500px;
+    }
+
+    .all {
+        height: 100vh;
+
+    }
+
+    .container {
+        flex-direction: column;
+
+    }
+}
